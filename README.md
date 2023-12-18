@@ -4,21 +4,18 @@ Since most chiropractors utilize spreadsheets and similar platforms to keep trac
 ...metrics for the clinic.
 
 Prog Description(CHIROMETRICS version 0.01):
-    It is difficult to make accurate decisions without having a basic understanding of Clinic
-    numbers. This program helps you to know where the PI practice is struggling,
-    and where you need to focus your attention. I implore you to know your Personal Injury Clinic KPIs.
+It is difficult to make accurate decisions without having a basic understanding of Clinic
+numbers. This program helps you to know where the PI practice is struggling,
+and where you need to focus your attention. I implore you to know your Personal Injury Clinic KPIs.
 
 PROLOG:
-    Reference parameters needed:
-    pt visit dates, medpay, attorney info
-
-    What questions can bring greater insights?
-    Exploration:
+What questions can bring greater insights?
+Exploration:
     What is the monthly average for New PI patients?
     Who is the top referral firm, avg referrals, and how many thus far?
     What percentage of the clinics pi pt’s have med pay?
 
-    Visualization:
+Visualization:
     Visualize attorney relationships, what are the number of referrals monthly
     Visualize the annual patient visits month-to-month
     Visualize pt with med pay vs pt without medpay, month-to-month and annual
