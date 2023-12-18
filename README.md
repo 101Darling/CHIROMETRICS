@@ -28,3 +28,36 @@ PROLOG:
         Medpay: *ONLY binary option of Yes/No accepted
         Attorney: *ONLY input attorney name/law firm or between the three similar options
                         - 'No Atty', 'No Atty yet', 'Unattached'
+
+****CODE OVERVIEW AND FUTURE UPDATE NOTES:****
+First ere's an overview of the code:
+
+1) **Data Loading and Cleaning:**
+The script reads a CSV file named ******.csv** using the **pandas** library.
+It extracts relevant columns: 'Date', 'Medpay', and 'Attorney'.
+The **Date** column is filtered to retain only rows with valid date formats.
+
+2) **Data Analysis:**
+The script calculates the monthly average for new PI patients.
+It identifies the month with the highest and lowest number of new PI patients.
+The percentage of PI patients with Medpay is calculated.
+
+3) **Attorney Analysis:**
+The script analyzes attorney-related data, counting the number of new PI patients referred by each attorney.
+It identifies the top two attorneys with the highest referrals.
+
+4) **Data Visualization:**
+The script uses **matplotlib** to create visualizations:
+A bar graph depicting the annual patient visits month-to-month.
+A pie chart illustrating the percentage of patients with Medpay.
+A bar graph presenting the relationship with attorneys and their referral counts.
+
+5) **User Interaction:**
+The script prompts the user to generate a report by entering 'Y' or exit by entering 'N'.
+The user's choice determines whether the visualizations are displayed.
+
+**Future updates notes:**
+User Interface: Consider developing a graphical user interface (GUI) to make it more user-friendly.
+Export Options: Allow users to export visualizations and reports in various formats (PDF, Excel, etc.).
+Integration with Other Software: Explore possibilities for integrating this tool with other chiropractic clinic management software.
+Include more advance features and insights
