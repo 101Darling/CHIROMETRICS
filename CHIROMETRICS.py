@@ -1,6 +1,6 @@
 # File: CHIROMETRICS.py
 # Author: Darling Ngoh
-# Date:12/13/23
+# Date:12/26/23
 
 """
 Prog Description(CHIROMETRICS version 0.01):
